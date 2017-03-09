@@ -1,0 +1,89 @@
+
+BlackJacketJack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+powerRun
+  rotate: false
+  xy: 1, 209
+  size: 466, 46
+  orig: 466, 46
+  offset: 0, 0
+  index: -1
+superKick
+  rotate: false
+  xy: 1, 128
+  size: 369, 79
+  orig: 369, 79
+  offset: 0, 0
+  index: -1
+superPunch
+  rotate: false
+  xy: 469, 203
+  size: 381, 52
+  orig: 381, 52
+  offset: 0, 0
+  index: -1
+powerPunch
+  rotate: false
+  xy: 1, 76
+  size: 321, 50
+  orig: 321, 50
+  offset: 0, 0
+  index: -1
+run
+  rotate: false
+  xy: 1, 30
+  size: 280, 44
+  orig: 280, 44
+  offset: 0, 0
+  index: -1
+fireball
+  rotate: false
+  xy: 1, 1
+  size: 114, 27
+  orig: 114, 27
+  offset: 0, 0
+  index: -1
+fly
+  rotate: false
+  xy: 117, 1
+  size: 103, 27
+  orig: 103, 27
+  offset: 0, 0
+  index: -1
+punch
+  rotate: false
+  xy: 852, 210
+  size: 166, 45
+  orig: 166, 45
+  offset: 0, 0
+  index: -1
+dead
+  rotate: false
+  xy: 852, 163
+  size: 164, 45
+  orig: 164, 45
+  offset: 0, 0
+  index: -1
+jump
+  rotate: false
+  xy: 324, 77
+  size: 132, 49
+  orig: 132, 49
+  offset: 0, 0
+  index: -1
+dash
+  rotate: false
+  xy: 324, 46
+  size: 102, 29
+  orig: 102, 29
+  offset: 0, 0
+  index: -1
+airRoll
+  rotate: false
+  xy: 372, 166
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1

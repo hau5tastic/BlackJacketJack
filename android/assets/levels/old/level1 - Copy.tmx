@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="64" tileheight="64" nextobjectid="21">
+ <tileset firstgid="1" name="platforms" tilewidth="64" tileheight="64" tilecount="76" columns="0">
+  <tile id="0">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_bl_v1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_bl_v2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_bm_v1.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_bm_v2.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_br_v1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_br_v2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_corner_bl_v1.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_corner_br_v1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_corner_tl_v1.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_corner_tr_v1.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v1a.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v1b.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v3a.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v3b.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v3c.png"/>
+  </tile>
+  <tile id="15">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v3d.png"/>
+  </tile>
+  <tile id="16">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v4a.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v4b.png"/>
+  </tile>
+  <tile id="18">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v4c.png"/>
+  </tile>
+  <tile id="19">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_l_v4d.png"/>
+  </tile>
+  <tile id="20">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v1a.png"/>
+  </tile>
+  <tile id="21">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v1b.png"/>
+  </tile>
+  <tile id="22">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v3a.png"/>
+  </tile>
+  <tile id="23">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v3b.png"/>
+  </tile>
+  <tile id="24">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v3c.png"/>
+  </tile>
+  <tile id="25">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v3d.png"/>
+  </tile>
+  <tile id="26">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v4a.png"/>
+  </tile>
+  <tile id="27">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v4b.png"/>
+  </tile>
+  <tile id="28">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v4c.png"/>
+  </tile>
+  <tile id="29">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_m_v4d.png"/>
+  </tile>
+  <tile id="30">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v1a.png"/>
+  </tile>
+  <tile id="31">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v1b.png"/>
+  </tile>
+  <tile id="32">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v3a.png"/>
+  </tile>
+  <tile id="33">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v3b.png"/>
+  </tile>
+  <tile id="34">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v3c.png"/>
+  </tile>
+  <tile id="35">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v3d.png"/>
+  </tile>
+  <tile id="36">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v4a.png"/>
+  </tile>
+  <tile id="37">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v4b.png"/>
+  </tile>
+  <tile id="38">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v4c.png"/>
+  </tile>
+  <tile id="39">
+   <image width="64" height="32" source="../dungeon/platforms/dungeon01_platform_half_wall_r_v4d.png"/>
+  </tile>
+  <tile id="40">
+   <image width="16" height="32" source="../dungeon/platforms/dungeon01_platform_ledge_half_wall_end_l.png"/>
+  </tile>
+  <tile id="41">
+   <image width="16" height="32" source="../dungeon/platforms/dungeon01_platform_ledge_half_wall_end_r.png"/>
+  </tile>
+  <tile id="42">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_l_v1.png"/>
+  </tile>
+  <tile id="43">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_l_v2.png"/>
+  </tile>
+  <tile id="44">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_m_v1.png"/>
+  </tile>
+  <tile id="45">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_m_v2.png"/>
+  </tile>
+  <tile id="46">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_r_v1.png"/>
+  </tile>
+  <tile id="47">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_r_v2.png"/>
+  </tile>
+  <tile id="48">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_ruin_m_v1.png"/>
+  </tile>
+  <tile id="49">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ledge_ruin_m_v2.png"/>
+  </tile>
+  <tile id="50">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ml_v1.png"/>
+  </tile>
+  <tile id="51">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_ml_v2.png"/>
+  </tile>
+  <tile id="52">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_mr_v1.png"/>
+  </tile>
+  <tile id="53">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_mr_v2.png"/>
+  </tile>
+  <tile id="54">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_bl_dark_wall_v1.png"/>
+  </tile>
+  <tile id="55">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_bl_v1.png"/>
+  </tile>
+  <tile id="56">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_br_dark_wall_v1.png"/>
+  </tile>
+  <tile id="57">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_br_v1.png"/>
+  </tile>
+  <tile id="58">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_tl_dark_wall_v1.png"/>
+  </tile>
+  <tile id="59">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_tl_v1.png"/>
+  </tile>
+  <tile id="60">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_tr_dark_wall_v1.png"/>
+  </tile>
+  <tile id="61">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_ruin_tr_v1.png"/>
+  </tile>
+  <tile id="62">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_t_v1.png"/>
+  </tile>
+  <tile id="63">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_t_v2.png"/>
+  </tile>
+  <tile id="64">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_thin_l_v1.png"/>
+  </tile>
+  <tile id="65">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_thin_l_v2.png"/>
+  </tile>
+  <tile id="66">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_thin_m_v1.png"/>
+  </tile>
+  <tile id="67">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_thin_m_v2.png"/>
+  </tile>
+  <tile id="68">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_thin_r_v1.png"/>
+  </tile>
+  <tile id="69">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_thin_r_v2.png"/>
+  </tile>
+  <tile id="70">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_thin_ruin_l_v1.png"/>
+  </tile>
+  <tile id="71">
+   <image width="32" height="64" source="../dungeon/platforms/dungeon01_platform_thin_ruin_r_v1.png"/>
+  </tile>
+  <tile id="72">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_tl_v1.png"/>
+  </tile>
+  <tile id="73">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_tl_v2.png"/>
+  </tile>
+  <tile id="74">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_tr_v1.png"/>
+  </tile>
+  <tile id="75">
+   <image width="64" height="64" source="../dungeon/platforms/dungeon01_platform_tr_v2.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="77" name="background" tilewidth="1024" tileheight="512" tilecount="11" columns="0">
+  <tile id="0">
+   <image width="64" height="64" source="../dungeon/backgrounds/dungeon01_background01_bottom_tile.png"/>
+  </tile>
+  <tile id="1">
+   <image width="1024" height="192" source="../dungeon/backgrounds/dungeon01_background01_horizon_clouds.png"/>
+  </tile>
+  <tile id="2">
+   <image width="256" height="512" source="../dungeon/backgrounds/dungeon01_background01_horizon_v1.png"/>
+  </tile>
+  <tile id="3">
+   <image width="256" height="512" source="../dungeon/backgrounds/dungeon01_background01_horizon_v2.png"/>
+  </tile>
+  <tile id="4">
+   <image width="256" height="512" source="../dungeon/backgrounds/dungeon01_background01_horizon_v3.png"/>
+  </tile>
+  <tile id="5">
+   <image width="256" height="512" source="../dungeon/backgrounds/dungeon01_background01_horizon_v4.png"/>
+  </tile>
+  <tile id="6">
+   <image width="144" height="144" source="../dungeon/backgrounds/dungeon01_background01_sky_moon.png"/>
+  </tile>
+  <tile id="7">
+   <image width="256" height="256" source="../dungeon/backgrounds/dungeon01_background01_sky_tile_v1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="256" height="256" source="../dungeon/backgrounds/dungeon01_background01_sky_tile_v2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="256" height="256" source="../dungeon/backgrounds/dungeon01_background01_sky_tile_v3.png"/>
+  </tile>
+  <tile id="10">
+   <image width="256" height="256" source="../dungeon/backgrounds/dungeon01_background01_sky_tile_v4.png"/>
+  </tile>
+ </tileset>
+ <layer name="background" width="100" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+87,0,0,0,87,0,0,0,87,0,0,0,87,0,0,0,87,0,0,0,87,0,0,0,87,0,0,0,87,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+82,0,0,0,80,0,0,0,81,0,0,0,79,0,0,0,80,0,0,0,81,0,0,0,79,0,0,0,80,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="foreground" width="100" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,66,67,67,67,72,0,0,0,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="3" x="0" y="832" width="6400" height="64"/>
+ </objectgroup>
+ <objectgroup name="bricks">
+  <object id="6" x="576" y="576" width="64" height="64"/>
+  <object id="7" x="640" y="576" width="64" height="64"/>
+  <object id="8" x="704" y="576" width="64" height="64"/>
+  <object id="9" x="768" y="576" width="64" height="64"/>
+  <object id="10" x="832" y="576" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="coins">
+  <object id="15" x="1280" y="576" width="64" height="64">
+   <properties>
+    <property name="powerup" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="objects">
+  <object id="16" x="1728" y="704" width="64" height="128"/>
+ </objectgroup>
+ <objectgroup name="walkers">
+  <object id="17" x="512" y="768" width="64" height="64"/>
+  <object id="18" x="1216" y="768" width="64" height="64"/>
+  <object id="19" x="1856" y="768" width="64" height="64"/>
+  <object id="20" x="640" y="512" width="64" height="64"/>
+ </objectgroup>
+</map>

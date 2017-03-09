@@ -1,0 +1,12 @@
+
+particle.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+particle
+  rotate: false
+  xy: 1, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
